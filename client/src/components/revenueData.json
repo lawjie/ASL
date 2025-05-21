@@ -1,0 +1,15 @@
+[
+    { "label": "Jan", "revenue": 64854, "cost": 32652 },
+    { "label": "Feb", "revenue": 78234, "cost": 39421 },
+    { "label": "Mar", "revenue": 85679, "cost": 43128 },
+    { "label": "Apr", "revenue": 92145, "cost": 46590 },
+    { "label": "May", "revenue": 101234, "cost": 51023 },
+    { "label": "Jun", "revenue": 112567, "cost": 56789 },
+    { "label": "Jul", "revenue": 120345, "cost": 60543 },
+    { "label": "Aug", "revenue": 118902, "cost": 59876 },
+    { "label": "Sep", "revenue": 109876, "cost": 55432 },
+    { "label": "Oct", "revenue": 98765, "cost": 49765 },
+    { "label": "Nov", "revenue": 87654, "cost": 44123 },
+    { "label": "Dec", "revenue": 75432, "cost": 38012 }
+  ]
+  

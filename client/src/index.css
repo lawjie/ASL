@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap')
+
+@theme {
+    --font-league: 'League Spartan', sans-serif;
+    --font-noto: "Noto Serif", serif;
+}
+
+body { /* OUTSIDE of MAIN CONTENT?? */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow-x: hidden;
+    background-image: radial-gradient(circle at 0% 0%,
+        rgba(0, 31, 62, 0.1),
+        rgba(40, 106, 157, 0.1),
+        rgba(37, 56, 71, 0.2),
+        rgba(241, 150, 85, 0.2),
+        rgba(16, 129, 219, 0.2)
+    );
+}
+
+#root { /* MAIN CONTENT?? */
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    /* padding: 2rem; */
+    font-family: --font-noto;
+}
+
+label {
+    font-size: 1rem;
+    color: #001f3e;
+    font-weight: bold;
+    width: 8rem;
+}
+
+
+button {
+    cursor: pointer;
+}
